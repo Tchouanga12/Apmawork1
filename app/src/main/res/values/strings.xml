@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Apma-work1</string>
+    <string name="user_email">email</string>
+    <string name="user_password">password</string>
+    <string name="ampa_login_logo">ampa</string>
+    <string name="LoginBtnText">Login</string>
+    <string name="signupLogo">Sign up to apma</string>
+    <string name="Sfirstname">first name</string>
+    <string name="Semail">email</string>
+    <string name="Slastname">last name</string>
+    <string name="Spassword">password</string>
+    <string name="signup">Sign up</string>
+    <string name="loginhere">already have an account? login</string>
+    <string name="createAccount" />
+    <string name="loadingText">Wait a minute..</string>
+</resources>
