@@ -15,4 +15,9 @@
     <string name="loadingText">Wait a minute..</string>
     <string name="hello">Hello </string>
     <string name="user_in_name">You</string>
+    <string name="searchMsg">search elements</string>
+    <string name="financeImgText">Expenses</string>
+    <string name="CropsImgText">Crops</string>
+    <string name="AnimalImgText">Cattles</string>
+    <string name="ProductImgText">Products</string>
 </resources>

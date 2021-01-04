@@ -19,13 +19,14 @@
     -->
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/mainlayout"
+        android:id="@+id/layoutHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/header_background"
         app:layout_constraintTop_toTopOf="parent"
-        android:padding="25dp"
-        tools:ignore="MissingConstraints">
+        android:padding="10dp"
+
+        >
 
         <TextView
             android:id="@+id/textHello"
@@ -69,12 +70,208 @@
 
             />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:color="@color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/white_regtangle_background"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imageMenu">
 
+            <EditText
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/searchMsg"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/purple_500"
+                android:textSize="16sp"
+                android:importantForAutofill="no"
+                android:fontFamily="@font/poppinsmedium"
+                />
 
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_baseline_search_24"
+                android:contentDescription="@string/ampa_login_logo"
+                app:tint="@color/colorAccent"
+                
+            />
 
-
-
+        </LinearLayout>
+        
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutHeader">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp">
+
+-------------------------- expenses -----------------------------------------
+            <LinearLayout
+                android:id="@+id/layoutFinance"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_regtangle_background"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="4dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintEnd_toStartOf="@id/layoutFinance"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="200dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@string/ampa_login_logo"
+                    android:padding="8dp"
+                    android:src="@drawable/finance"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/financeImgText"
+                    android:textColor="@color/grey"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsmedium"/>
+
+            </LinearLayout>
+------------------------------  crops ----------------------------------------
+            <LinearLayout
+                android:id="@+id/layoutCrop"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_regtangle_background"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toEndOf="@id/layoutFinance"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_width="200dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@string/ampa_login_logo"
+                    android:padding="8dp"
+                    android:src="@drawable/crops"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/CropsImgText"
+                    android:textColor="@color/grey"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsmedium"/>
+
+            </LinearLayout>
+
+--------------------------- animal ------------------------------------
+
+            <LinearLayout
+                android:id="@+id/layoutAnimal"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_regtangle_background"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toStartOf="@id/layoutFinance"
+                app:layout_constraintTop_toBottomOf="@id/layoutFinance"
+                android:layout_width="200dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@string/ampa_login_logo"
+                    android:padding="8dp"
+                    android:src="@drawable/cow"/>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/AnimalImgText"
+                    android:textColor="@color/grey"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsmedium"/>
+
+            </LinearLayout>
+
+--------------------------- products ------------------------------------
+            <LinearLayout
+                android:id="@+id/layoutProducts"
+                android:layout_height="wrap_content"
+                android:background="@drawable/white_regtangle_background"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toEndOf="@id/layoutAnimal"
+                app:layout_constraintTop_toBottomOf="@id/layoutFinance"
+                android:layout_width="200dp">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@string/ampa_login_logo"
+                    android:padding="8dp"
+                    android:src="@drawable/products"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ProductImgText"
+                    android:textColor="@color/grey"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppinsmedium"/>
+
+            </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
