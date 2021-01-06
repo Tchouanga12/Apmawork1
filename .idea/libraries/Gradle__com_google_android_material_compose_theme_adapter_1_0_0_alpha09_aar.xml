@@ -4,9 +4,9 @@
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/eb2f1d0bcd5cc1be83a41e8395547c49/jetified-compose-theme-adapter-1.0.0-alpha09/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/eb2f1d0bcd5cc1be83a41e8395547c49/jetified-compose-theme-adapter-1.0.0-alpha09/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/eb2f1d0bcd5cc1be83a41e8395547c49/jetified-compose-theme-adapter-1.0.0-alpha09/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb2f1d0bcd5cc1be83a41e8395547c49/jetified-compose-theme-adapter-1.0.0-alpha09/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb2f1d0bcd5cc1be83a41e8395547c49/jetified-compose-theme-adapter-1.0.0-alpha09/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb2f1d0bcd5cc1be83a41e8395547c49/jetified-compose-theme-adapter-1.0.0-alpha09/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d8976f017c2bdd4f2f19835acb85b2b/jetified-compose-theme-adapter-1.0.0-alpha09/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d8976f017c2bdd4f2f19835acb85b2b/jetified-compose-theme-adapter-1.0.0-alpha09/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d8976f017c2bdd4f2f19835acb85b2b/jetified-compose-theme-adapter-1.0.0-alpha09/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.google.android.material/compose-theme-adapter/1.0.0-alpha09/fda62747353b9a9ae806eed8f8a4a73ba03d70df/compose-theme-adapter-1.0.0-alpha09-javadoc.jar!/" />

@@ -2,15 +2,15 @@
   <library name="Gradle: androidx.core:core:1.5.0-alpha01@aar">
     <ANNOTATIONS>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4da7f718e22ae395dfeb6664156dc73a/core-1.5.0-alpha01/annotations.zip!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4da7f718e22ae395dfeb6664156dc73a/core-1.5.0-alpha01/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/703d60393e89f744b0207d481e6d4978/core-1.5.0-alpha01/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4da7f718e22ae395dfeb6664156dc73a/core-1.5.0-alpha01/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4da7f718e22ae395dfeb6664156dc73a/core-1.5.0-alpha01/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4da7f718e22ae395dfeb6664156dc73a/core-1.5.0-alpha01/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4da7f718e22ae395dfeb6664156dc73a/core-1.5.0-alpha01/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4da7f718e22ae395dfeb6664156dc73a/core-1.5.0-alpha01/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4da7f718e22ae395dfeb6664156dc73a/core-1.5.0-alpha01/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/703d60393e89f744b0207d481e6d4978/core-1.5.0-alpha01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/703d60393e89f744b0207d481e6d4978/core-1.5.0-alpha01/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/703d60393e89f744b0207d481e6d4978/core-1.5.0-alpha01/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
